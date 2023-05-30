@@ -1,1 +1,2 @@
 # Sodoku
+# Bingo
