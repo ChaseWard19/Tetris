@@ -1,7 +1,8 @@
 #table {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #ccfcd4, #6cf484)
+    background-image: linear-gradient(to bottom right, #f7f7f7, #252525)
+   
 }
 
 #title {
@@ -137,8 +138,35 @@
     flex-wrap: wrap;
     margin-top: -10%;
 }
+#row10 {
+    height: 15%;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10%;
+}
+#row11 {
+    height: 15%;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10%;
+}
+#row12 {
+    height: 15%;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10%;
+}
+#row13 {
+    height: 15%;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10%;
+}
 .card {
-    background-image: url(cardBack.png);
     background-size: contain;
     width: 8.3%;
     height: 140px;
@@ -173,6 +201,18 @@
 #r9c1 {
     margin-left: 0px;
 }
+#r10c1 {
+    margin-left: 0px;
+}
+#r11c1 {
+    margin-left: 0px;
+}
+#r12c1 {
+    margin-left: 0px;
+}
+#r13c1 {
+    margin-left: 0px;
+}
 
 #r2c7 {
     margin-right: 0px;
@@ -196,5 +236,17 @@
     margin-right: 0px;
 }
 #r9c7 {
+    margin-right: 0px;
+}
+#r10c7 {
+    margin-right: 0px;
+}
+#r11c7 {
+    margin-right: 0px;
+}
+#r12c7 {
+    margin-right: 0px;
+}
+#r13c7 {
     margin-right: 0px;
 }
