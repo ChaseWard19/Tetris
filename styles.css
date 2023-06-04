@@ -1,3 +1,6 @@
 #field {
+    height: 40%;
+    width: 70%;
     border: 2px solid black;
+    margin: auto;
 }
