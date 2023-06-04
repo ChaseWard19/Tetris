@@ -16,6 +16,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    overflow:hidden;
     /* ~~~ */
     height: 97%;
     width: 70%;
@@ -249,4 +250,32 @@
 }
 #r13c7 {
     margin-right: 0px;
+}
+
+/* mobile viewing */
+@media screen and (max-width: 767px) {
+    .card {
+        height: 100px;
+    }
+    .blankCard {
+        height: 100px;
+    }
+    #diamondAce {
+        height: 100px;
+    }
+    #spadeAce {
+        height: 100px;
+    }
+    #clubAce {
+        height: 100px;
+    }
+    #heartAce {
+        height: 100px;
+    }
+    #discardPile {
+        height: 100px;
+    }
+    #stockPile {
+        height: 100px;
+    }
 }

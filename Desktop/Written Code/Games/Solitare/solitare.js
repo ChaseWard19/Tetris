@@ -19,9 +19,48 @@ while (currentIndex != 0) {
     deck[randomIndex], deck[currentIndex]];
 }
 
-// pre-game set tableau 
-const cardClass = document.querySelectorAll('.card').forEach(card => {
-    card.style.backgroundImage = 'url(/'+deck[0][1]+'/'+deck[0][0]+'.png)'
-    card.style.backgroundRepeat = 'no-repeat'
+// set back of cards
+const cardClass = document.querySelectorAll('.card')
+// set tableau
+let row2 = []
+for (i=0; i<8; i++) {
+    row2.push(deck[0])
     deck.splice(0, 1)
-})
+    console.log(row2)
+}
+let row3 = []
+for (i=0; i<7; i++) {
+    row3.push(deck[0])
+    deck.splice(0, 1)
+    console.log(row3)
+}
+let row4 = []
+for (i=0; i<6; i++) {
+    row4.push(deck[0])
+    deck.splice(0, 1)
+    console.log(row4)
+}
+let row5 = []
+for (i=0; i<5; i++) {
+    row5.push(deck[0])
+    deck.splice(0, 1)
+    console.log(row5)
+}
+let row6 = []
+for (i=0; i<4; i++) {
+    row6.push(deck[0])
+    deck.splice(0, 1)
+    console.log(row6)
+}
+let row7 = []
+for (i=0; i<3; i++) {
+    row7.push(deck[0])
+    deck.splice(0, 1)
+    console.log(row7)
+}
+let row8 = []
+for (i=0; i<2; i++) {
+    row8.push(deck[0])
+    deck.splice(0, 1)
+    console.log(row8)
+}
